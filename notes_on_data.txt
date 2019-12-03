@@ -1,0 +1,16 @@
+
+Data quality issues
+	missing data in a, c, d, and f (NA)
+	missing data in a (value 0), and d (value 1)
+	single large jump in c
+
+
+	missing		special values	features	
+a	Y		0		ACF lags 1,2,3 < 0, weak
+b					ACF lag 1 < 0, strong
+c	Y				a single large jump
+d	Y		1		ACF lag 1 < 0, v strong, 1-step "bounce-back", two-layer structure
+e					
+f	Y				many zeros (99%)
+
+
